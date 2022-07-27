@@ -72,7 +72,6 @@
 #local {
     padding-top: 10rem;
     padding-bottom: 5rem;
-    background: #f3f3f3;
     display: flex;
     justify-content: center;
 }
@@ -88,29 +87,70 @@
 }
 
 .calendario-paises {
-    position: relative;
-    width: 100%;
-    padding: 3rem;
-    background-image: url(https://soymotor.com/sites/default/files/imagenes/noticia/guia-supervivencia-wrc-soymotor.jpg);
+    margin-bottom: 10rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    color: #FFF;
 }
 
-.calendario-paises:before {
-    content: '';
+.titulo-pruebas {
+    font-size: 5rem;
+    color: var(--bs-orange);
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.contenedor-pruebas {
+    max-width: 1000px;
+    
+}
+
+.contenedor-pruebas img {
+    min-height: 300px;
+    object-fit: cover;
+}
+
+.informacion-prueba {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000000ab;
+    bottom: 4rem;
+    width: 45%;
 }
 
-.calendario-paises ol {
-    z-index: 100;
-    list-style: none;
+.informacion-prueba h5 {
+    background: #f3f3f3;
+    padding: 1rem;
+    font-size: 1.4rem;
+    
 }
 
-.calendario-paises ol li {
-    margin-top: 1rem;
+.bandera-prueba {
+    width: 100px;
+    height: 75px;
+    margin: 2.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(https://www.banderas-mundo.es/data/flags/w580/mc.png);
+    background-position: center;
+    background-size: contain;
+}
+
+
+@media (max-width:950px) {
+    .informacion-prueba h5 {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width:576px) {
+    .informacion-prueba h5 {
+        font-size: .7rem;
+    }
+
+    .bandera-prueba {
+        width: 75px;
+        height: 50px;
+        margin: 1.5rem;
+    }
 }
