@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contacto.css">
 
     <title>Pagina bootstrap</title>
   </head>
@@ -19,7 +20,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <span class="fs-5 fw-bold">RallyFans</span>
             </a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,9 +28,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
+                    
                     <li class="nav-item">
                     <a class="nav-link" href="#">Calendario</a>
                     </li>   
@@ -60,8 +59,40 @@
         </div>
     </nav>
 
-    <section>
-        
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-1"><span class="color-principal">Contactanos </span></h1>
+      <p>
+          ¿Te has preguntado qué es el rally? Entonces estás en el camino correcto,
+          Emoción, aventura y adrenalina, son palabras que 
+          describen muy bien lo que es el rally, pero en términos
+          más técnicos debemos decirte que es un tipo de competencia
+          automovilística que pone a prueba la velocidad y la resistencia de los participantes.
+      </p>
+  </section>
+
+    <section class="w-100">
+      <div class="container d-flex justify-content-center">
+        <form class="w-50 p-5">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </section>
     
     <footer>

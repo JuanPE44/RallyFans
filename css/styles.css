@@ -36,8 +36,6 @@ body {
 }
 
 
-
-
 /*
     <================Menu==============>
 */
@@ -62,119 +60,11 @@ body {
     color: #575757 !important; 
 }
 
-/*
-    <================Slider de imagenes==============>
-*/
-
-.carousel-inner {
-    max-height: 39rem;
-}
 
 /*
-    <================Competencias==============>
+    <================Footer==============>
 */
 
-#intro h1 {
-    border-color: var(--bs-orange) !important;
-}
-
-#competencias {
-    margin-top: 7rem;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
-
-#competencias h1 {
-    border-color: var(--bs-orange) !important;
-    margin-bottom: 6rem;
-}
-
-.competencias-fila .contenedor-img > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.icono-colum .contenedor-img {
-    position: relative;
-    height: 100%;
-}
-
-.icono-colum .contenedor-img:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #0000005b;
-}
-
-#competencias .icono-colum h3 {
-    position: absolute;
-    color: var(--bs-orange);
-    text-shadow: 1px 1px 10px #000;
-}
-
-
-/*
-    <=======================Proximo WRC=======================-->
-*/
-
-.mapa {
-    width: 100%;
-    height: 500px;
-    background-image: url(https://acnews.blob.core.windows.net/imgnews/paragraph/NPAZ_6c17df285e7f4f2a9e446e0361edea8a.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-}
-
-#local {
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-    background: #f3f3f3;
-    display: flex;
-    justify-content: center;
-}
-
-.wrapper {
-    width: 100%;
-    height: 100%;
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-}
-
-.calendario-paises {
-    position: relative;
-    width: 100%;
-    padding: 3rem;
-    background-image: url(https://soymotor.com/sites/default/files/imagenes/noticia/guia-supervivencia-wrc-soymotor.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-}
-
-.calendario-paises:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000000ab;
-}
-
-.calendario-paises ol {
-    z-index: 100;
-    list-style: none;
-}
-
-.calendario-paises ol li {
-    margin-top: 1rem;
-}
 
 footer {
     height: 16vh;
