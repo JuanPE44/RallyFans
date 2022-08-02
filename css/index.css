@@ -11,6 +11,7 @@
 
 
 
+
 /*
     <================Competencias==============>
 */
@@ -95,17 +96,30 @@
     align-items: center;
 }
 
+.calendario-paises ol {
+    list-style: none;
+}
+
+.calendario-paises ol li {
+    margin: .8rem 0;
+}
+
+.calendario-paises ol li span {
+    color: var(--bs-orange);
+    font-weight: bold;
+}
+
 .titulo-pruebas {
     font-size: 5rem;
     color: var(--bs-orange);
     margin-top: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .contenedor-pruebas {
     position: relative;
     max-width: 1000px;
-    max-height: 800px;
+    max-height: 500px;
 }
 
 .imagen-prueba {
@@ -147,6 +161,9 @@
 }
 
 
+
+
+
 @media (max-width:950px) {
     .informacion-prueba h5 {
         font-size: 1rem;
@@ -164,7 +181,7 @@
     }
 
     .bandera {
-        width: 100px;
+        width: 75px;
         height: 50px;
         margin: 1.5rem;
     }

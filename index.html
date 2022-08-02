@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
 
+    <script src="https://kit.fontawesome.com/56af8815be.js" crossorigin="anonymous"></script>
+
     <title>Pagina bootstrap</title>
   </head>
   <body>
@@ -18,7 +20,7 @@
     <!-- Encabezado -->
     <!-- ====================================================== -->
     
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3" id="menu">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 w-100" id="menu">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <span class="fs-5 fw-bold">RallyFans</span>
@@ -42,7 +44,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Calendario</a>
+                        <a class="nav-link" href="#local">Calendario</a>
                     </li>   
               
                     <li class="nav-item">
@@ -62,11 +64,11 @@
     <!-- slider de imagenes -->
     <!-- ====================================================== -->
 
-    <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide w-100 carousel1" data-bs-ride="carousel" >
         <div class="carousel-inner menu-imagenes w-100">
 
           <div class="carousel-item active" data-bs-interval="5000">
-            <img src="https://phantom-marca.unidadeditorial.es/5755c1c7322e107eff7c0c51ef8ef5ee/resize/1320/f/jpg/assets/multimedia/imagenes/2021/05/22/16217130679273.jpg" class="d-block w-100" alt="..." data-bs-interval="">
+            <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/3/2/mnhj4ed5ln8khwm2dbe3/fia-world-rally-championship-2021-italia-ott-tanak" class="d-block w-100" alt="..." data-bs-interval="">
           </div>
 
           <div class="carousel-item" data-bs-interval="5000">
@@ -97,10 +99,10 @@
         <h1 class="p-3 fs-2 border-top border-1 "><span class="color-principal">FansRally </span> es una pagina hecha por fans de este hermoso deporte</h1>
         <p>
             ¿Te has preguntado qué es el rally? Entonces estás en el camino correcto,
-             Emoción, aventura y adrenalina, son palabras que 
-             describen muy bien lo que es el rally, pero en términos
-              más técnicos debemos decirte que es un tipo de competencia
-               automovilística que pone a prueba la velocidad y la resistencia de los participantes.
+            Emoción, aventura y adrenalina, son palabras que 
+            describen muy bien lo que es el rally, pero en términos
+            más técnicos debemos decirte que es un tipo de competencia
+            automovilística que pone a prueba la velocidad y la resistencia de los participantes.
         </p>
     </section>
 
@@ -162,7 +164,22 @@
         </div>
         <section class="calendario-paises">
             <h2 class="titulo-pruebas">PRUEBAS</h2>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <ol class="fs-5 text-center mb-5 p-2">               
+                <li>Rally de <span>Montecarlo</span> - 20 al 23 de enero</li>
+                <li>Rally de <span>Suecia</span> - 24 al 27 de febrero</li>
+                <li>Rally de <span>Croacia</span> - 21 al 24 de abril</li>
+                <li>Rally de <span>Portugal</span> - 19 al 22 de mayo</li>
+                <li>Rally de <span>Italia</span> - 2 al 5 de junio</li>
+                <li>Rally de <span>Kenia</span> - 23 al 26 de junio</li>
+                <li>Rally de <span>Estonia</span> - 14 al 17 de julio</li>
+                <li>Rally de <span>Finlandia</span> - 4 al 7 de agosto</li>
+                <li>RAlly de <span>Belgica</span> - 18 al 21 de agosto</li>
+                <li>Rally de <span>Grecia</span> - 8 al 11 de septiembre</li>
+                <li>Rally de <span>Nueva Zelanda</span> - 29 de septiembre al 2 de octubre</li>
+                <li>Rally de <span>España</span> - 20 al 23 de octubre</li>
+                <li>Rally de <span>Japón</span> - 10 al 13 de noviembre</li>
+            </ol>
+            <div id="carouselExampleCaptions" class="carousel slide pt-5" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -315,9 +332,20 @@
         </section>
     </section>
 
-    <footer>
-        <p class="text-light m-0 p-2 fs-7">Contactanos +54 2494377662</p>
-    </footer>
+    <footer class="footer">
+		<div class="contenedor-redes-sociales">
+			<h1 class="footer-titulo">RallyFans</h1>
+			<div class="redes-sociales">
+				<a href=""><i class="fa fa-brands fa-facebook icono"></i></a>
+				<a href=""><i class="fa fa-brands fa-instagram icono"></i></a>
+				<a href=""><i class="fa fa-brands fa-twitter icono"></i></a>
+				<a href=""><i class="fa fa-brands fa-tiktok icono"></i></a>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			1993-2018. Viajes.com S.R.L. Todos los derechos reservados. - Evt: Viajes.com - Legajo: 8362 - Disp: 1350/93 - Cuit Nº 30-65951462-8. 4 lugares disponibles por producto. Vigencia desde el 13/5/2022 al 15/5/2022 LA AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.
+	    </div>
+	</footer>
 
 
 

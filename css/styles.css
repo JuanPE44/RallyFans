@@ -42,6 +42,14 @@ body {
 */
 
 
+
+#menu {
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+
 #menu a {
     font-size: 18px;
     font-weight: bold;
@@ -67,12 +75,56 @@ body {
 */
 
 
-footer {
-    height: 16vh;
-    border-top: .2rem solid var(--bs-orange);
-    background: rgb(34, 34, 34);
+.footer {
+	width: 100%;
+	padding: 2rem 3rem 4rem 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(41, 41, 41);
+	border-top: .2rem solid var(--bs-orange);
 }
 
+.contenedor-redes-sociales {
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-titulo {
+	margin: 1rem 0 1rem 0;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	color: var(--bs-orange);
+}
+
+
+.redes-sociales {
+	display: flex;
+}
+
+.icono {
+	font-size: 1.5rem;
+	color: #FFF;
+	margin: 1rem;
+	transition: .3s;
+}
+
+.icono:hover {
+	color: var(--bs-orange);
+}
+
+.footer-copyright {
+	width: 60%;
+	height: 100%;
+	margin-top: 1rem;
+	padding: 2rem;
+	text-align: justify;
+	color: #FFF;
+}
 
 
 
@@ -150,6 +202,22 @@ footer {
     .calendario-paises ol li {
         font-size: 1.1rem !important;
     }
+
+    .footer {
+		flex-direction: column;
+	}
+
+	.contenedor-redes-sociales {
+		width: 100%;
+		height: 50%;
+	}
+
+	.footer-copyright {
+		width: 100%;
+		height: 50%;
+		text-align: center;
+		margin-top: 2rem;
+	}
 
     
    
